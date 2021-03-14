@@ -9,21 +9,30 @@ Obtain your username from the email you received after signing up at:
 
 https://www.usps.com/business/web-tools-apis/#developers
 
+
+### Clone
+
+```
+git clone https://github.com/yxes/usps-zipcode.git
+cd usps-zipcode
+```
+
 ### Configuration
 
 Create a configuration directory if you don't already have one called `conf/`
 from the place you plan on running your code. Then place the following file
 in that directory `usps.ini`. The contents of that file will be:
 
+`./conf/usps.ini`
 ```
 [access]
 username=<YOUR USERNAME>
-password=<YOUR EMAIL>
+password=<YOUR PASSWORD>
 ```
 
 ### Setup
 
-`pip install . --upgrade` is what I use
+`pip install . --upgrade`
 
 ## USAGE
 
