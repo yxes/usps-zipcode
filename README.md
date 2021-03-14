@@ -41,6 +41,7 @@ from yxes.usps.zipcode import USPSZipCode()
 zip = USPSZipCode()
 print(zip.lookup('20024'))
 ```
+yields: `{'city': 'WASHINGTON', 'state': 'DC'}`
 
 ## LICENSE
 
