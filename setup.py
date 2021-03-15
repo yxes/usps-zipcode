@@ -5,12 +5,11 @@ from distutils.core import setup
     * initial working commit
 """
 setup(
-    name="YxesUSPSZipcode",
-    version="0.0.1",
+    name="USPSZipCode",
+    version="0.0.2",
     packages=[
         'yxes',
-        'yxes.usps',
-        'yxes.usps.zipcode'
+        'yxes.usps'
     ],
     install_requires=[
         'requests>=2.25.1',
